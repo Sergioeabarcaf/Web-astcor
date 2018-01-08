@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { APP_ROUTING } from './app.routes';
 
+import { ProveedoresService } from './services/proveedores.service';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
@@ -29,7 +31,9 @@ import { ServiciosComponent } from './components/servicios/servicios.component';
     BrowserModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [
+    ProveedoresService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
