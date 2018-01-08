@@ -20,9 +20,9 @@ export class ProveedoresExclusivosService {
       web:"http://www.tre-c.it",
       productos1:"",
       productos2:"",
-      logo:"assets/img/eipsa/logo.png",
-      img1:"assets/img/eipsa/img1.jpg",
-      img2:"assets/img/eipsa/img2.jpg"
+      logo:"assets/img/everwatt/logo.png",
+      img1:"assets/img/everwatt/img1.jpg",
+      img2:"assets/img/everwatt/img2.jpg"
     },
     {
       nombre:"VALVOLE HOFMANN",
