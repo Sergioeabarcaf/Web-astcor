@@ -42,4 +42,8 @@ export class ProveedoresService {
     return this.proveedores;
   }
 
+  getProveedor(idx:string){
+    return this.proveedores[idx];
+  }
+
 }

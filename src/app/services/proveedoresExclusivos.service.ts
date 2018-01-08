@@ -42,4 +42,8 @@ export class ProveedoresExclusivosService {
     return this.proveedoresExclusivos;
   }
 
+  getProveedorExclusivo(idx:string){
+    return this.proveedoresExclusivos[idx];
+  }
+
 }
