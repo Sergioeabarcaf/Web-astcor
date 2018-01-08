@@ -68,4 +68,8 @@ export class ProveedoresService {
 
   constructor() { }
 
+  getProveedores(){
+    return this.proveedores;
+  }
+
 }
