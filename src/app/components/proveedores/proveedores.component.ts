@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProveedoresService } from '../../services/proveedores.service';
+import { ProveedoresExclusivosService } from '../../services/proveedoresExclusivos.service';
 
 @Component({
   selector: 'app-proveedores',
@@ -9,14 +10,14 @@ import { ProveedoresService } from '../../services/proveedores.service';
 export class ProveedoresComponent implements OnInit {
 
   proveedores:any[] = [];
+  proveedoresExclusivos:any[] = [];
 
-  constructor( private _proveedoresService:ProveedoresService ) {
+  constructor( private _proveedoresService:ProveedoresService, private _proveedoresExclusivosService:ProveedoresExclusivosService ) {
   }
 
   ngOnInit() {
     this.proveedores = this._proveedoresService.getProveedores();
-
-    console.log(this.proveedores)
+    this.proveedoresExclusivos = this._proveedoresExclusivosService.getProveedoresExclusivos();
   }
 
 }
