@@ -13,7 +13,7 @@
     <div class="container">
       <h2 class="text-center ptop">Proveedores Exclusivos</h2>
       <hr>
-      <div class="row text-center" *ngFor="let proveedorExclusivo of proveedoresExclusivos">
+      <div class="row text-center" *ngFor="let proveedorExclusivo of proveedoresExclusivos; let i = index">
         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ptop align-self-center">
           <img [src]="proveedorExclusivo.logo" [alt]="proveedorExclusivo.nombre" class="img-fluid" style="height:100px;">
         </div>
@@ -21,7 +21,9 @@
           <p class="text-justify"> <small>{{ proveedorExclusivo.descripcion }}</small></p>
         </div>
         <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 pbottom2 align-self-center">
-          <a class="btn btn-success btn-block" [href]="proveedorExclusivo.web" role="button" target="_blank">Link</a>
+          <button (click)="verProveedorExclusivo(i)"
+            type="button" class="btn btn-success btn-block"> Ver más...
+          </button>
         </div>
         <br>
       </div>
@@ -31,7 +33,7 @@
     <div class="container">
       <h2 class="text-center ptop">Proveedores Compartidos</h2>
       <hr>
-      <div class="row text-center" *ngFor="let proveedor of proveedores">
+      <div class="row text-center" *ngFor="let proveedor of proveedores; let i = index">
         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ptop align-self-center">
           <img [src]="proveedor.logo" [alt]="proveedor.nombre" class="img-fluid" style="height:100px;">
         </div>
@@ -39,7 +41,9 @@
           <p class="text-justify"> <small>{{ proveedor.descripcion }}</small></p>
         </div>
         <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 pbottom2 align-self-center">
-          <a class="btn btn-success btn-block" [href]="proveedor.web" role="button" target="_blank">Link</a>
+          <button (click)="verProveedor(i)"
+            type="button" class="btn btn-success btn-block"> Ver más...
+          </button>
         </div>
       </div>
     </div>
