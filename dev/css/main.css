@@ -1,1 +1,20 @@
 /*clases*/
+.back-primary{
+  background-color: rgba(78, 78, 78, 1);
+}
+
+.c-primary{
+  color: rgba(0, 164, 255, 1);
+}
+
+.cb-important{
+  color: rgba(23, 23, 23, 1);
+}
+
+.cb-secondary{
+  color: rgba(53, 53, 53, 1);
+}
+
+.cb-tree{
+  color: rgba(34, 34, 34, 1);
+}
