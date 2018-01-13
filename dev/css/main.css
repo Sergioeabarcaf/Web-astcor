@@ -18,3 +18,13 @@
 .cb-tree{
   color: rgba(34, 34, 34, 1);
 }
+
+.no-padding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.no-margin{
+  margin-right: 0px;
+  margin-left: 0px;
+}
