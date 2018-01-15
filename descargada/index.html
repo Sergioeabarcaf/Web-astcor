@@ -24,8 +24,8 @@
 
 <body class="homepage">
     <header id="header">
-
-        <div class="row">
+<!-- Banner de imagen en cabecera -->
+        <div class="row hidden-xs hidden-sm">
           <div class="col-xs-7 col-sm-7 col-md-4 col-lg-3 col-xl-3" style="padding:0px;">
             <img src="assets/img/fondo.png" alt="logo astcor" class="img-responsive" width="100%" style="max-height:55px;">
           </div>
@@ -40,11 +40,21 @@
             <img src="assets/img/fondo.png" alt="logo astcor" class="img-responsive" width="100%" style="max-height:55px;">
           </div>
         </div>
-
-        <nav class="navbar navbar-inverse" role="banner">
+<!-- Navbar dentro del container para que quede centrado-->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 no-margin">
             <div class="container">
+
+
+            </div>
+          </div>
+        </div>
+
+<!-- Navbar usado en la pagina y hay que eliminar -->
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -129,7 +139,9 @@
             </div><!--/.container-->
         </nav><!--/nav-->
 
-    </header><!--/header-->    <section id="main-slider" class="no-margin">
+    </header><!--/header-->
+    <!-- Carrusel de imagenes -->
+    <section id="main-slider" class="no-margin">
         <div class="carousel slide">
             <ol class="carousel-indicators">
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>
