@@ -1,248 +1,357 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="author" content="sergioeabarcaf">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/favicon.ico">
     <title>Home | Astcor</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-  </head>
-  <body>
-    <section id="header">
-      <div class="row no-padding">
-        <!-- Imagen cabecera  -->
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <img src="http://placehold.it/1080x60" alt="Imagen header Astcor" class="img w-100" height="60px">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link href="assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/js/jquery.isotope.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+</head>
+
+<body class="homepage">
+    <header id="header">
+<!-- Banner de imagen en cabecera -->
+        <div class="row">
+          <div class="col-xs-7 col-sm-7 col-md-4 col-lg-3 col-xl-3" style="padding:0px;">
+            <img src="assets/img/fondo.png" alt="logo astcor" class="img-responsive" width="100%" style="max-height:55px;">
+          </div>
+          <div class="col-xs-5 col-sm-5 col-md-4 col-lg-3 col-xl-3" style="padding:0px;">
+            <img src="assets/img/logo_2.png" alt="logo astcor" class="img-responsive" width="100%" style="max-height:55px;">
+          </div>
+          <div class="hidden-xs hidden-sm col-sm-4 col-lg-3 col-xl-3" style="padding:0px;">
+            <img src="assets/img/fondo.png" alt="logo astcor" class="img-responsive" width="100%" style="max-height:55px;">
+          </div>
+          <div class="hidden-xs hidden-sm hidden-md col-lg-3 col-xl-3" style="padding:0px;">
+            <img src="assets/img/fondo.png" alt="logo astcor" class="img-responsive" width="100%" style="max-height:55px;">
+          </div>
+        </div>
+<!-- Navbar dentro del container para que quede centrado-->
+        <div class="row no-margin">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 no-margin">
+            <div class="container">
+              <nav class="navbar navbar-inverse" role="banner">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a href="index.html" class="navbar-brand">ASTCOR</a>
+                </div>
+                <div class="navbar navbar-inverse">
+                  <div class="navbar-inner">
+                          <ul class="nav">
+                            <li class="divider-vertical active" >
+                              <a href="index.html">INICIO</a>
+                            </li>
+                            <li class="divider-vertical dropdown">
+                              <a href="http://www.astcor.cl/web-astcor/productos">PRODUCTOS</a>
+                              <ul class="dropdown-menu">
+                                <li><a href="http://www.astcor.cl/web-astcor/productos/pro8" tabindex="-1">VALVULAS, POSICIONADORES Y ACTUADORES</a></li>
+                                <li><a href="http://www.astcor.cl/web-astcor/productos/pro9" tabindex="-1">CALEFACTORES INDUSTRIALES</a></li>
+                                <li><a href="http://www.astcor.cl/web-astcor/productos/pro10" tabindex="-1">CONTROLES, PANELES Y SENSORES</a></li>
+                                <li><a href="http://www.astcor.cl/web-astcor/productos/pro11" tabindex="-1">CALEFACTORES DE TRAZADO</a></li>
+                                <li><a href="http://www.astcor.cl/web-astcor/productos/pro12" tabindex="-1">INSTRUMENTACION</a></li>
+                              </ul>
+                            </li>
+                            <li class="divider-vertical dropdown">
+                              <a href="http://www.astcor.cl/web-astcor/proyectos">REPRESENTADAS</a>
+                              <ul class="divider-vertical dropdown-menu">
+                                <li><a href="http://www.astcor.cl/web-astcor/productos/pro2" tabindex="-1">EIPSA/PR</a></li>
+                                <li><a href="http://www.astcor.cl/web-astcor/productos/pro3" tabindex="-1">TRE-C–EVERWATT</a></li>
+                                <li><a href="http://www.astcor.cl/web-astcor/productos/pro4" tabindex="-1">VALVOLE HOFMANN</a></li>
+                                <li><a href="http://www.astcor.cl/web-astcor/productos/pro1" tabindex="-1">CHROMALOX</a></li>
+                                <li><a href="http://www.astcor.cl/web-astcor/productos/pro7" tabindex="-1">KMTEC</a></li>
+                                <li><a href="http://www.astcor.cl/web-astcor/productos/pro5" tabindex="-1">ASA</a></li>
+                                <li><a href="http://www.astcor.cl/web-astcor/productos/pro6" tabindex="-1">DELTA CONTROL</a></li>
+                              </ul>
+                            </li>
+                            <li class="divider-vertical">
+                              <a href="http://www.astcor.cl/web-astcor/proyectos/proyecto">PROYECTOS</a>
+                            </li>
+                            <li class="divider-vertical">
+                              <a href="http://www.astcor.cl/web-astcor/nosotros">NOSOTROS</a>
+                            </li>
+                            <li class="divider-vertical">
+                              <a href="http://www.astcor.cl/web-astcor/nosotros/noticias">NOTICIAS</a>
+                            </li>
+                            <li class="divider-vertical">
+                              <a href="http://www.astcor.cl/web-astcor/contacto">CONTACTO</a>
+                            </li>
+                          </ul>
+                        </div>
+              </div>
+            </nav>
+          </div>
         </div>
       </div>
-      <!-- Navbar  -->
-      <div class="row no-padding">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProductos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Productos
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownProductos">
-                    <a class="dropdown-item" href="#">VALVULAS, POSICIONADORES Y ACTUADORES</a>
-                    <a class="dropdown-item" href="#">CALEFACTORES INDUSTRIALES</a>
-                    <a class="dropdown-item" href="#">CONTROLES, PANELES Y SENSORES</a>
-                    <a class="dropdown-item" href="#">CALEFACTORES DE TRAZADO</a>
-                    <a class="dropdown-item" href="#">INSTRUMENTACION</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownRepresentadas" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Representadas
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownRepresentadas">
-                    <a class="dropdown-item" href="#">EIPSA/PR</a>
-                    <a class="dropdown-item" href="#">TRE-C–EVERWATT</a>
-                    <a class="dropdown-item" href="#">VALVOLE HOFMANN</a>
-                    <a class="dropdown-item" href="#">CHROMALOX</a>
-                    <a class="dropdown-item" href="#">KMTEC</a>
-                    <a class="dropdown-item" href="#">ASA</a>
-                    <a class="dropdown-item" href="#">DELTA CONTROL</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Noticias</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Contacto</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-      <!-- Carousel de imagenes  -->
-      <div class="row no-padding">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <div id="carouselInicio" class="carousel slide" data-ride="carousel">
+
+    </header><!--/header-->
+    <!-- Carrusel de imagenes -->
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide">
             <ol class="carousel-indicators">
-              <li data-target="#carouselInicio" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselInicio" data-slide-to="1"></li>
-              <li data-target="#carouselInicio" data-slide-to="2"></li>
-              <li data-target="#carouselInicio" data-slide-to="3"></li>
-              <li data-target="#carouselInicio" data-slide-to="4"></li>
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+                <li data-target="#main-slider" data-slide-to="3"></li>
+                <li data-target="#main-slider" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="img-fluid w-100 d-block" src="http://placehold.it/700x300" alt="Slide Valvole">
-                <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 162, 255, 0.2);">
-                  <div class="row">
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                      <img src="http://placehold.it/100x50" alt="">
-                      <h3>Marca</h3>
-                    </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                      <p>algoakajkajkajkajkajkajkajakjakajkajkajkajakja</p>
-                      <a href="#" class="btn btn-primary" role="button">Visitar web</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="img-fluid w-100 d-block" src="http://placehold.it/700x300" alt="Slide Valvole">
-                <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 162, 255, 0.2);">
-                  <div class="row">
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                      <img src="http://placehold.it/100x50" alt="">
-                      <h3>Marca</h3>
-                    </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                      <p>algoakajkajkajkajkajkajkajakjakajkajkajkajakja</p>
-                      <a href="#" class="btn btn-primary" role="button">Visitar web</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="img-fluid w-100 d-block" src="http://placehold.it/700x300" alt="Slide Valvole">
-                <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 162, 255, 0.2);">
-                  <div class="row">
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                      <img src="http://placehold.it/100x50" alt="">
-                      <h3>Marca</h3>
-                    </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                      <p>algoakajkajkajkajkajkajkajakjakajkajkajkajakja</p>
-                      <a href="#" class="btn btn-primary" role="button">Visitar web</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="img-fluid w-100 d-block" src="http://placehold.it/700x300" alt="Slide Valvole">
-                <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 162, 255, 0.2);">
-                  <div class="row">
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                      <img src="http://placehold.it/100x50" alt="">
-                      <h3>Marca</h3>
-                    </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                      <p>algoakajkajkajkajkajkajkajakjakajkajkajkajakja</p>
-                      <a href="#" class="btn btn-primary" role="button">Visitar web</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="img-fluid w-100 d-block" src="http://placehold.it/700x300" alt="Slide Valvole">
-                <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 162, 255, 0.2);">
-                  <div class="row">
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                      <img src="http://placehold.it/100x50" alt="">
-                      <h3>Marca</h3>
-                    </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                      <p>algoakajkajkajkajkajkajkajakjakajkajkajkajakja</p>
-                      <a href="#" class="btn btn-primary" role="button">Visitar web</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselInicio" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselInicio" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="contenido" class="back-primary">
-      <div class="container">
-        <div class="row">
-          <div class="container">
+                <div class="item active" style="background-image: url(http://www.astcor.cl/web-astcor/assets/images/slider/slide1.png)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                     <h1 class="animation animated-item-1">CONTAMOS CON PRODUCTOS EN STOCK </h1>
+                                    <h2 class="animation animated-item-2">GARANTÍA MÍNIMA 1 AÑO </h2>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-3 center">
+                                <div class="slider-img">
+                                    <center><img src="http://www.astcor.cl/web-astcor//assets/images/slider/im1.png" class="img-responsive center"></center>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--<div class="row slide-margin">
+                            <div class="col-sm-12">
+                                <div class="carousel-content">
+                                <center><img src="http://www.astcor.cl/web-astcor//assets/images/slider/im1.png" class="animation animated-item-1 center"></center>
+
+                                </div>
+                            </div>
+                        </div>
+                    -->
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(http://www.astcor.cl/web-astcor/assets/images/slider/slide2.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">CONTAMOS CON PRODUCTOS EN STOCK </h1>
+                                    <h2 class="animation animated-item-2">GARANTÍA MÍNIMA 1 AÑO </h2>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-3 center">
+                                <div class="slider-img">
+                                    <center><img src="http://www.astcor.cl/web-astcor//assets/images/slider/im2.png" class="img-responsive center"></center>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(http://www.astcor.cl/web-astcor/assets/images/slider/slide3.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">PEDIDOS CON CARACTERÍSTICAS ESPECIALES</h1>
+                                    <h2 class="animation animated-item-2">EVERWATT</h2>
+                                    <li class="active"><a class="btn-slide animation animated-item-3" href="http://www.tre-c.it/everwatt/prodotti/">VISITAR</a></li>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="http://www.astcor.cl/web-astcor//assets/images/slider/im3.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+                <div class="item" style="background-image: url(http://www.astcor.cl/web-astcor/assets/images/slider/slide4.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">PRODUCTOS A MEDIDA</h1>
+                                    <h2 class="animation animated-item-2">EIPSA</h2>
+                                    <a class="btn-slide animation animated-item-3" href="http://www.eipsa.es/index.php/es/">VISITAR</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="http://www.astcor.cl/web-astcor//assets/images/slider/im2.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+                <div class="item" style="background-image: url(http://www.astcor.cl/web-astcor/assets/images/slider/slide5.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <img src="http://www.astcor.cl/web-astcor//assets/images/slider/im4.png" class="img-responsive">
+                                </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+    </section><!--/#main-slider-->
+
+
+
+
+
+   <section id="feature" >
+        <div class="container">
+
             <div class="row">
-              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <h2 class="c-primary font-weight-bold">SERVICIOS</h2>
-              </div>
-              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
-                <p class="text-justify">Dentro de los servicios; desarrollamos integración en proyectos de automatización y eléctricos (tableros) en variadas empresas que requieran optimizar un proceso o implementar algún campo nuevo de control, dentro de sus líneas de producción.</p>
-                <a class="btn btn-primary" href="#" role="button">VISITAR</a>
-              </div>
-              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <img src="img/servicio.png" alt="Imagen de Tableros" class="img-fluid mx-auto d-block">
-              </div>
-            </div>
+                <div class="features">
+                    <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <h1>SERVICIOS</h1>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                       <p> Dentro de los servicios; desarrollamos integración en proyectos de automatización y eléctricos (tableros) en variadas empresas que requieran optimizar un proceso o implementar algún campo nuevo de control, dentro de sus líneas de producción.
+                       </p>
+
+                       <a href="http://www.astcor.cl/web-astcor/proyectos/proyecto" class="btn btn-large btn-primary">VISITAR</a>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="http://www.astcor.cl/web-astcor/assets/images/servicio.png">
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                </div><!--/.services-->
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#feature-->
+
+
+
+    <section id="feature2">
+        <div class="container">
+               <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <h1>NUESTRAS REPRESENTADAS</h1>
+                            <img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="https://static.wixstatic.com/media/fd6773_31539f9b0a384d0b88764920257839df~mv2.png/v1/fill/w_300,h_160,al_c,lg_1/fd6773_31539f9b0a384d0b88764920257839df~mv2.png">
+                             <p> Dentro de los servicios; desarrollamos integración en proyectos de automatización y eléctricos (tableros) en variadas empresas que requieran optimizar un proceso o implementar algún campo nuevo de control, dentro de sus líneas de producción.
+                            </p>
+
+                            <a class="btn btn-large btn-primary2" href="http://www.astcor.cl/web-astcor/proyectos/">MÁS..</a>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                       <h1>CLIENTES QUE NOS PREFIEREN</h1>
+                            <img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="https://static.wixstatic.com/media/fd6773_da578038964d47b5bc8a8b490a0b92dd~mv2.jpg/v1/fill/w_300,h_160,al_c,lg_1,q_80/fd6773_da578038964d47b5bc8a8b490a0b92dd~mv2.webp">
+                             <p> Clientes que prefieren nuestros servicios.
+                            </p>
+                            <a class="btn btn-large btn-primary2" href="http://www.astcor.cl/web-astcor/proyectos/">MÁS..</a>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <h1>PRODUCTOS DESTACADOS</h1>
+                            <img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="https://static.wixstatic.com/media/fd6773_eba8eb2252814c66b4faee449f234a73~mv2.png/v1/fill/w_210,h_112,al_c,lg_1/fd6773_eba8eb2252814c66b4faee449f234a73~mv2.png">
+                             <p> Calefactores eléctricos eficientes, cintas calefactoras eléctricas (Heat Trace), cable calefactores de aislación mineral, sensores de temperatura, controladores de temperatura, controladores de potencia thermowell, manómetros, transmisores de presión, transmisores de nivel, válvulas de control e instrumentación en general.
+                            </p>
+                            <a class="btn btn-large btn-primary2" href="http://www.astcor.cl/web-astcor/productos">MÁS..</a>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                </div><!--/.services-->
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#partner-->
+
+    <section id="conatcat-info">
+        <div class="container">
             <div class="row">
-              <div class="container">
-                <div class="row">
-                  <div class="col-12 col-sm-12 col-md-4">
-                    <h3>NUESTRAS REPRESENTADAS</h3>
-                    <hr>
-                    <img src="img/chromalox.png" alt="Logo Chromalox" class="img-fluid mx-auto d-block">
-                    <p>Representamos Marcas lideres en la  fabricación de sus respectivos productos.</p>
-                    <a class="btn btn-primary" href="#" role="button">Ver más</a>
-                  </div>
-                  <div class="col-12 col-sm-12 col-md-4">
-                    <h3>CLIENTES QUE NOS PREFIEREN</h3>
-                    <hr>
-                    <img src="img/codelco.jpg" alt="Logo Codelco" class="img-fluid mx-auto d-block">
-                    <p>Clientes que prefieren nuestros servicios.</p>
-                    <a class="btn btn-primary" href="#" role="button">Ver más</a>
-                  </div>
-                  <div class="col-12 col-sm-12 col-md-4">
-                    <h3>PRODUCTOS DESTACADOS</h3>
-                    <hr>
-                    <img src="img/productoIndex.png" alt="Producto destacado" class="img-fluid mx-auto d-block">
-                    <p>Calefactores eléctricos eficientes, cintas calefactoras eléctricas (Heat Trace), cable calefactores de aislación mineral, sensores de temperatura, controladores de temperatura, controladores de potencia thermowell, manómetros, transmisores de presión, transmisores de nivel, válvulas de control e instrumentación en general.</p>
-                    <a class="btn btn-primary" href="#" role="button">Ver más</a>
-                  </div>
+                <div class="col-sm-8">
+                    <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="pull-left">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="media-body">
+                            <h2>AV. IRARRAZAVAL #2401 ÑUÑOA, SANTIAGO, CHILE. </h2>
+                            <p>    OF. COMERCIAL 1302, PISO 13.</p>
+                            <p>    OF. TÉCNICA 1317, PISO 13. </p>
+
+                            <p>Tel: 56 232247907</p>
+                            <p>Email: info@astcor.cl</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </div><!--/.container-->
+    </section><!--/#conatcat-info-->
 
-    <section id="contacto" class="back-primary">
-      <div class="container">
-        <div class="row">
-          <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-            <small>
-              <h4>CONTACTO</h4>
-              <hr>
-              <p>AV. IRARRAZAVAL #2401 ÑUÑOA, SANTIAGO, CHILE.</p>
-              <p>OFICINA COMERCIAL 1302, PISO 13.</p>
-              <p>OFICINA TÉCNICA 1317, PISO 13.</p>
-              <p>Tel: 56-02-32247907</p>
-              <br>
-              <p>Email: </p>
-              <a href="mailto:info@astcor.cl" type="mail">info@astcor.cl</a>
-            </small>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-  </body>
+
+    <!--
+    <div class="center wow fadeInDown">
+                <h2>Distribuimos y representamos a:</h2>
+                <p class="lead"></p>
+            </div>
+
+            <div class="partners">
+                <ul>
+                    <li> <a href="http://www.eipsa.es/"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="http://www.astcor.cl/web-astcor/assets/images/partners/partner1.png"></a></li>
+                    <li> <a href="http://www.chromalox.com"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="http://www.astcor.cl/web-astcor/assets/images/partners/partner2.png"></a></li>
+                    <li> <a href="http://www.kmtec.at"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="http://www.astcor.cl/web-astcor/assets/images/partners/partner3.png"></a></li>
+                    <li> <a href="http://www.valvolehofmann.com"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="http://www.astcor.cl/web-astcor/assets/images/partners/partner4.png"></a></li>
+                    <li> <a href="http://www.asaspa.com/"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="http://www.astcor.cl/web-astcor/assets/images/partners/partner5.jpg"></a></li>
+                    <li> <a href="https://www.delta-controls.com/"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="http://www.astcor.cl/web-astcor/assets/images/partners/partner7.png"></a></li>
+                    <li> <a href="http://www.prelectronics.es/"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="http://www.astcor.cl/web-astcor/assets/images/partners/partner8.png"></a></li>
+                </ul>
+            </div>
+    -->  <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+
+                   <center>AV. IRARRAZAVAL #2401 ÑUÑOA. SANTIAGO, CHILE - OF. COMERCIAL 1302, PISO 13 -
+OF. TÉCNICA 1317, PISO 13. - Fono: 56 232247907 - info@astcor.cl</center></div>
+
+            </div>
+        </div>
+</footer><!--/#footer-->
+
+
+</body>
 </html>
