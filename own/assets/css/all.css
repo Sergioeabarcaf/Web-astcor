@@ -1,0 +1,24 @@
+/*componentes principales*/
+body{
+  background-color: rgb(78, 78, 78) !important;
+}
+
+
+/*Clases usadas*/
+.header{
+  background-image: url("../img/fondo.png");
+  background-repeat: repeat-x;
+  background-size: 500px;
+  height: 100px;
+}
+
+.car_back{
+  height: 350px !important;
+  background-size: cover;
+}
+
+.car_coment{
+  background-color: rgba(0, 128, 207, 0.5);
+  height: 350px;
+  color: white;
+}
