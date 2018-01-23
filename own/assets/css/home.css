@@ -1,0 +1,29 @@
+.car_back{
+  height: 350px !important;
+  background-size: cover;
+}
+
+.car_coment{
+  background-color: rgba(0, 128, 207, 0.5);
+  height: 350px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  vertical-align: middle !important;
+}
+
+.service{
+  background-color: rgb(34, 34, 34);
+}
+
+.serviceInt{
+  background-color: rgb(23, 23, 23);
+  color: white;
+  text-align: justify;
+}
+
+.serviceInt h2{
+  font-weight: 800;
+  color: rgb(0, 164, 255);
+}
