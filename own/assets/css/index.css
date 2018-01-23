@@ -27,3 +27,9 @@
   font-weight: 800;
   color: rgb(0, 164, 255);
 }
+
+/*Espacio despues de carusel*/
+.space{
+  background-color: rgb(53, 53, 53);
+  height: 30px;
+}
