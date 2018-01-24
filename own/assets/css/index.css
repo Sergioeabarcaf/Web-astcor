@@ -69,6 +69,26 @@
   padding-bottom: 20px;
 }
 
+/*3 temas*/
+.conta{
+  color: white;
+  text-transform: uppercase;
+}
+
+.conta p{
+  font-size: 15px;
+  padding: 3px !important;
+  margin: 0px !important;
+}
+
+.conta a{
+  color: white;
+}
+
+.conta hr{
+  border-bottom: 1px solid white;
+}
+
 
 /*Comunes*/
 .space{
