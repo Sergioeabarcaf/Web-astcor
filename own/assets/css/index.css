@@ -1,11 +1,12 @@
+/*Carrusel*/
 .car_back{
-  height: 350px !important;
+  height: 370px !important;
   background-size: cover;
 }
 
 .car_coment{
   background-color: rgba(0, 128, 207, 0.5);
-  height: 350px;
+  height: 370px;
   color: white;
   text-align: center;
   font-size: 18px;
@@ -13,6 +14,7 @@
   vertical-align: middle !important;
 }
 
+/*Servicio*/
 .service{
   background-color: rgb(34, 34, 34);
 }
@@ -21,6 +23,7 @@
   background-color: rgb(23, 23, 23);
   color: white;
   text-align: justify;
+  max-width: 80%;
 }
 
 .serviceInt h2{
@@ -28,8 +31,46 @@
   color: rgb(0, 164, 255);
 }
 
-/*Espacio despues de carusel*/
+.serviceInt p{
+  text-align: justify;
+  margin-bottom: 0px !important;
+}
+
+.pad-bot_10{
+  padding-bottom: 10px;
+}
+
+/*3 temas*/
+.tem{
+  color: white;
+  text-align: justify;
+  max-width: 80%;
+}
+
+.tem h3{
+  font-weight: 600;
+  color: rgb(0, 164, 255);
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: dotted 2px white;
+}
+
+.tem img{
+  max-width: 100%;
+}
+
+.tem p{
+  text-align: justify;
+  margin-bottom: 0px !important;
+}
+
+.temInt{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+/*Comunes*/
 .space{
   background-color: rgb(53, 53, 53);
-  height: 30px;
 }

@@ -78,6 +78,7 @@ body{
 
 .drop-item_own{
   color: white !important;
+  padding: 3px 5px 3px 5px !important;
 }
 
 .drop-item_own:hover,
