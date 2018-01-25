@@ -87,6 +87,27 @@ body{
   color: white !important;
 }
 
+/*Contacto*/
+.conta{
+  color: white;
+  text-transform: uppercase;
+}
+
+.conta p{
+  font-size: 15px;
+  padding: 3px !important;
+  margin: 0px !important;
+}
+
+.conta a{
+  color: white;
+}
+
+.conta hr{
+  border-bottom: 1px solid white;
+}
+
+/*Footer*/
 .foot{
   background-color: black;
   color: white;
@@ -97,4 +118,35 @@ body{
   margin-bottom: 5px;
   margin: 0px;
   font-size: 12px;
+}
+
+/*Comunes*/
+.space{
+  background-color: rgb(53, 53, 53);
+}
+
+.pad-bot_10{
+  padding-bottom: 10px;
+}
+
+/*Servicio*/
+.service{
+  background-color: rgb(34, 34, 34);
+}
+
+.serviceInt{
+  background-color: rgb(23, 23, 23);
+  color: white;
+  text-align: justify;
+  max-width: 80%;
+}
+
+.serviceInt h2{
+  font-weight: 800;
+  color: rgb(0, 164, 255);
+}
+
+.serviceInt p{
+  text-align: justify;
+  margin-bottom: 0px !important;
 }
