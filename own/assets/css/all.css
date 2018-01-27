@@ -3,6 +3,11 @@ body{
   background-color: rgb(78, 78, 78) !important;
 }
 
+h2,
+h3{
+  color: rgb(0, 164, 255) !important;
+}
+
 /*Clases usadas*/
 /*Banner imagene*/
 .header{
@@ -100,6 +105,10 @@ body{
 
 .conta a{
   color: white;
+}
+
+.conta h2{
+  color: white !important;
 }
 
 .conta hr{
