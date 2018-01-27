@@ -1,0 +1,19 @@
+.proy {
+  color: white;
+}
+
+.proy hr{
+  border-bottom: 2px dotted white;
+}
+
+.proy h2{
+  color: rgb(0, 164, 255) !important;
+}
+
+.proy h3{
+  color: rgb(0, 164, 255) !important;
+}
+
+.proy li{
+  list-style-type: none;
+}
