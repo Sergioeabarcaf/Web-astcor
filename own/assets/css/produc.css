@@ -13,3 +13,9 @@
 .producto hr{
   border-bottom: 2px dotted white;
 }
+
+.producto .prodImg{
+  max-width: 230px;
+  padding: 20px;
+  background-color: white;
+}
