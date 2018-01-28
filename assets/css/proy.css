@@ -9,3 +9,8 @@
 .proy li{
   list-style-type: none;
 }
+
+.proy h2,
+.proy h3{
+  color: rgb(0, 164, 255) !important;
+}

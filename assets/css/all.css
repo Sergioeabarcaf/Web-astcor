@@ -3,9 +3,8 @@ body{
   background-color: rgb(78, 78, 78) !important;
 }
 
-h2,
-h3{
-  color: rgb(0, 164, 255) !important;
+p{
+  color: white;
 }
 
 /*Clases usadas*/
