@@ -2,5 +2,10 @@
   max-width: 230px;
   padding: 10px;
   margin: 20px;
+  max-height: 160px !important;
   background-color: white;
+}
+
+.represent a{
+  background-color: inherit;
 }
