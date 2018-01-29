@@ -17,32 +17,3 @@
 .empty{
   height: 80%
 }
-
-/*3 temas*/
-.tem{
-  color: white;
-  text-align: justify;
-  max-width: 80%;
-}
-
-.tem h3{
-  font-weight: 600;
-  color: rgb(0, 164, 255);
-  text-transform: uppercase;
-  text-align: center;
-  border-bottom: dotted 2px white;
-}
-
-.tem img{
-  max-width: 100%;
-}
-
-.tem p{
-  text-align: justify;
-  margin-bottom: 0px !important;
-}
-
-.temInt{
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
