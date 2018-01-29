@@ -1,5 +1,6 @@
 .prodImg{
   max-width: 230px;
+  max-height: 160px !important;
   padding: 20px;
   background-color: white;
 }

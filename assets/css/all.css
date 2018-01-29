@@ -216,10 +216,11 @@ p{
   font-family: 'Anton', sans-serif !important;
   color: white;
   letter-spacing: 1px;
-  font-size: 20px !important;
+  font-size: 12px !important;
   background-color: rgb(23, 23, 23);
   border-style: none;
   margin-top: 20px;
+  padding: 10px;
 }
 
 .temInt{
