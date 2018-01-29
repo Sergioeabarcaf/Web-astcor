@@ -1,14 +1,7 @@
-/*Importacion fuente desde google*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Source+Sans+Pro');
-
 /*componentes principales*/
 body{
   background-color: rgb(78, 78, 78) !important;
   font-family: arial, 'Open Sans', sans-serif !important;
-}
-
-h3 {
-
 }
 
 p{
@@ -77,17 +70,18 @@ p{
   color: white;
 }
 
-.nav_own .navbar-text a {
+.nav_own .navbar-text a{
   color: white;
 }
 
 .nav_own .nav-link a{
   line-height: 44px;
-  font-size: 14px/1.1em;
+  font-size: 10px !important;
   font-family: sans-serif;
 }
 
-.nav_own .navbar-text a:hover, .nav_own .navbar-text a:focus {
+.nav_own .navbar-text a:hover,
+.nav_own .navbar-text a:focus {
   color: rgb(0, 164, 255);
 }
 
@@ -105,43 +99,6 @@ p{
 .drop-item_own:active{
   background-color: grey !important;
   color: white !important;
-}
-
-/*Contacto*/
-.conta{
-  color: white;
-  text-transform: uppercase;
-}
-
-.conta p{
-  font-size: 15px;
-  padding: 3px !important;
-  margin: 0px !important;
-}
-
-.conta a{
-  color: white;
-}
-
-.conta h2{
-  color: white !important;
-}
-
-.conta hr{
-  border-bottom: 1px solid white;
-}
-
-/*Footer*/
-.foot{
-  background-color: black;
-  color: white;
-}
-
-.foot p{
-  padding: 10px;
-  margin-bottom: 5px;
-  margin: 0px;
-  font-size: 12px;
 }
 
 /*Servicio*/
@@ -168,11 +125,52 @@ p{
   margin-bottom: 0px !important;
 }
 
-.service a{
+.serviceInt a{
   font-family: 'Anton', sans-serif !important;
   color: white;
   letter-spacing: 1px;
   font-size: 20px !important;
+}
+
+/*Contacto*/
+.conta{
+  color: white;
+  text-transform: uppercase;
+}
+
+.conta p{
+  font-size: 12px;
+  padding-top: 0px !important;
+  margin: 0px !important;
+}
+
+.conta a{
+  color: white;
+  font-size: 12px;
+}
+
+.conta h3{
+  color: white !important;
+  font-family: 'Anton', sans-serif !important;
+  font-weight: 100 !important;
+  font-size: 36px;
+}
+
+.conta hr{
+  border-bottom: 1px solid white;
+}
+
+/*Footer*/
+.foot{
+  background-color: black;
+  color: white;
+}
+
+.foot p{
+  padding: 10px;
+  margin-bottom: 5px;
+  margin: 0px;
+  font-size: 12px;
 }
 
 /*Comunes*/
@@ -194,7 +192,7 @@ p{
   text-transform: uppercase;
   text-align: center;
   font-family: 'Anton', sans-serif !important;
-  font-size: 24px !important;
+  font-size: 36px !important;
   font-weight: 100 !important;
 }
 
@@ -217,13 +215,15 @@ p{
   color: white;
   letter-spacing: 1px;
   font-size: 20px !important;
+  background-color: rgb(23, 23, 23);
+  border-style: none;
+  margin-top: 20px;
 }
 
 .temInt{
   padding-top: 10px;
   padding-bottom: 20px;
 }
-
 
 .margin-own{
   margin-top: 20px;

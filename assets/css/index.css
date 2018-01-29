@@ -6,14 +6,17 @@
 
 .car_coment{
   background-color: rgba(0, 128, 207, 0.5);
-  height: 370px;
+  height: 100%;
   color: white;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 800;
   vertical-align: middle !important;
 }
 
-.empty{
-  height: 80%
+.car_coment p{
+  font-family: 'Open Sans', sans-serif !important;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-weight: 700 !important;
+  font-size: 40px;
+  text-align: center;
+  line-height: 45px; 
 }
