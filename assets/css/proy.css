@@ -1,19 +1,16 @@
-.proy {
-  color: white;
+.proy{
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.proy hr{
-  border-bottom: 2px dotted white;
+.proy img{
+  max-width: 80%;
 }
 
+.proy ul{
+  padding-left: 10px;
+}
 .proy li{
   list-style-type: none;
-}
-
-.proy h2{
-  color: rgb(0, 164, 255) !important;
-}
-
-.proy h3{
-  color: rgb(199,199,199) !important;
+  padding-left: none;
 }
