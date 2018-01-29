@@ -1,20 +1,4 @@
-.producto{
-  color: rgb(0, 164, 255);
-}
-
-.producto h2{
-  text-transform: uppercase;
-}
-
-.producto p{
-  color: white;
-}
-
-.producto hr{
-  border-bottom: 2px dotted white;
-}
-
-.producto .prodImg{
+.prodImg{
   max-width: 230px;
   padding: 20px;
   background-color: white;

@@ -185,6 +185,8 @@ p{
   font-family: 'Anton', sans-serif !important;
   font-size: 2.5em !important;
   font-weight: 100 !important;
+  color: rgb(0, 164, 255);
+  text-transform: uppercase;
 }
 
 .container-own h3{
