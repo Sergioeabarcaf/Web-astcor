@@ -4,6 +4,6 @@
 }
 
 .own h3{
-  color:white;
-  text-align: left;
+  color:white !important;
+  text-align: left !important ;
 }
