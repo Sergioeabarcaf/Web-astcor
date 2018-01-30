@@ -204,7 +204,8 @@ p{
 
 .container-own img{
   max-width: 100%;
-  margin: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .container-own p{
