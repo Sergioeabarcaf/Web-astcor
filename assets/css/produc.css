@@ -4,3 +4,10 @@
   padding: 20px;
   background-color: white;
 }
+
+.prodImgCa img{
+  max-height: 150px !important;
+  padding: 20px;
+  background-color: white;
+  align-items: center;
+}
